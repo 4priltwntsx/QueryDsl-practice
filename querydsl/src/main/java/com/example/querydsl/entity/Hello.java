@@ -8,7 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Entity @Setter
+@Entity
+@Setter
 @Getter
 public class Hello {
     @Id
